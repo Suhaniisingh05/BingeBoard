@@ -1,0 +1,55 @@
+body{
+  height: 1000px;
+}
+.movie-image
+{
+  height: 600px;
+}
+
+.movie-image img
+{
+  margin: 0;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.movie-overlay
+{
+  position: absolute;
+  bottom: 0;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-image: linear-gradient(rgb(0,0,0,0),rgb(0,0,0,1));
+}
+
+.movie-title
+{
+  font-size: 4rem;
+  font-weight: 800;
+  margin: 0;
+  text-align: left;
+}
+
+.movie-runtime
+{
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.movie-rating
+{
+  margin-left: 5rem;
+}
+
+.movie-desciption
+{
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-align: left;
+  width: 50%;
+}

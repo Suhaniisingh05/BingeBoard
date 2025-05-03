@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+  background : #ED6044;
+  font-family: 'Wittgenstein';
+  color: #FFE2A9;
+}
+
+.header
+{
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.header-left
+{
+  display: flex;  
+  align-items: center;
+}
+
+#header_icon
+{
+  width: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 9.5rem;
+  cursor: pointer;
+}
+
+.nav-links{
+  display: flex;
+  gap: 2rem;
+}
+
+.header a
+{
+  text-decoration: none;
+  color: #FFE2A9;
+}
+
+.header-link
+{
+  margin-left: 1.5rem;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.header-link:hover ,.drop-btn:hover
+{
+  color: #171717;
+  font-weight: bold;
+  transform: all 0.5s ease-in-out;
+}
+/* DROP -DOWN */
+.drop-down
+{
+  position: relative;
+}
+
+.drop-btn
+{
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 18px;
+}
+
+
+.dropdown-content
+{
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  min-width: 150px;
+  background-color: #171717;
+  border-radius: 8px;
+}
+
+.dropdown-content a{
+  text-decoration: none;
+  color: #FFE2A9;
+  padding: 8px 16px;
+}
+
+.dropdown-content a:hover {
+  color: #ED6044;
+}
+
+.drop-down:hover .dropdown-content {
+  display: flex;
+}
+
